@@ -14,7 +14,9 @@ function Navbar({number}) {
             </div>
             <div className="card">
                 <div className='slide-down'>
-                        <Purchases/>
+                        <div className='con-slider-table'> 
+                            <Purchases/>
+                        </div>
                 </div>
                 <NavLink to="card">
                     <img src='/image/icon-header.png' alt=''/>

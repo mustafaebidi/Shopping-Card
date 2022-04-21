@@ -44,10 +44,10 @@
 }
 
 .slide-down {
+
   background-color: rgb(212, 207, 207);
   position: absolute;
-  width: 400px;
-  min-height: 100px;
+  max-width: 340px;
   top: 80%;
   right: 0px;
   transition: 0.3s;
@@ -55,7 +55,15 @@
   z-index: 55555;
   color: black;
   max-height: 500px;
-  overflow: auto;
+  width: calc(100vw - 60px);
+  padding: 8px;
+
+}
+
+.con-slider-table{
+  max-height: 500px;
+  overflow: scroll;
+
 }
 
 .card:hover .slide-down {
