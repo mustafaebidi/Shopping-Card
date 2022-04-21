@@ -13,11 +13,13 @@ function Navbar({number}) {
                 </Link>
             </div>
             <div className="card">
-                <div className='slide-down'>
-                        <div className='con-slider-table'> 
-                            <Purchases/>
-                        </div>
-                </div>
+                {{number} && 
+                    <div className='slide-down'>
+                            <div className='con-slider-table'> 
+                                <Purchases/>
+                            </div>
+                    </div>
+                }
                 <NavLink to="card">
                     <img src='/image/icon-header.png' alt=''/>
                     <div className={`numberofitems ${number > 0 ?"" :"hide"}`}>
