@@ -2,7 +2,7 @@
 
 import Card from '../card/card'
 import {ProductsInCard} from  "../../App"
-import {useContext} from 'react';
+import {Fragment, useContext} from 'react';
 import "./cardcontents.css"
 
 
@@ -30,16 +30,22 @@ export const Purchases=()=>{
 
 }
 
+
 function CardContents({number}) {
 
   const { totalPurchasePrice } = useContext(ProductsInCard);
 
 
+
+
   
   return (
 
+    <Fragment>
     <div className="table-container">
-        <Purchases/>
+        <div className="con">
+          <Purchases/>
+        </div>
         <div class="row">
           <div className='purchase-details'>
             <table>
@@ -64,10 +70,9 @@ function CardContents({number}) {
             </table>
           </div>
         </div>
-
-
-
     </div>
+    </Fragment>
+
 
 
 
