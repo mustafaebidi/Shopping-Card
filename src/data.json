@@ -1,0 +1,155 @@
+{
+    "items": [
+      {
+
+        "name": "Hikvision SSD-C100-120G",
+        "id": 10,
+        "isFreeShipping": true,
+        "price": 360 ,
+        "sku": 160350,
+        "type":"storage"
+
+      },
+      {
+        "name": "MSI GF63 Thin 10SCXR-222 Core i5-10500H 8GB DDR4 2666MHz 256GB NVMe SSD GTX 1650 Max-Q 4G Win",
+        "id": 11,
+        "isFreeShipping": true,
+        "price": 11899,
+        "sku": 1201,
+        "type":"laptop"
+
+      },
+      {
+        "name": "SAMSUNG Portable SSD T7 TOUCH USB 3.2 1TB EXTERNAL SOILD STATE DRIVE Black",
+        "id": 12,
+        "isFreeShipping": false,
+        "price": 3630,
+        "sku": 16007,
+        "type":"storage"
+
+      },
+      {
+        "name": "Asus ZenBook Flip 13-UX363JA-EM141T Corei5-1035G4 RAM 8GB 512GB SSD Intel iris plus GRAPHICS 13.3 FHD Touch Win10-Pine Grey",
+        "id": 13,
+        "isFreeShipping": true,
+        "price": 15600,
+        "sku": 11804,
+        "type":"laptop"
+
+
+      },
+      {
+        "name":"Lenovo Legion 5 Pro 16ACH6H AMD Ryzen 7 5800H ram 16GB 1TB SSD M.2 NVIDIA GeForce RTX 3060 6GB 16",
+        "id": 14,
+        "isFreeShipping": true,
+        "price": 25399 ,
+        "sku": 1638,
+        "type":"laptop"
+
+      },
+      {
+
+
+        "name": "HP Victus 16-d0023dx Gaming Laptop Intel Core i5-11400H 8GB RAM 256GB SSD NVIDIA RTX 3050 4GB 16.1 Windows 11",
+        "id": 15,
+        "isFreeShipping": false,
+        "price": 17499,
+        "sku": 1644,
+        "type":"laptop"
+
+      },
+      {
+        "name": "ADATA Ultimate SU650 960GB Solid State Drive",
+        "id": 16,
+        "isFreeShipping": true,
+        "price": 1815,
+        "sku": 6060,
+        "type":"laptop"
+
+      },
+      {
+        "name": "MSI Optix AG32CV GAMING MONITOR 165Hz 1ms VA",
+        "id": 17,
+        "isFreeShipping": true,
+        "price": 5950,
+        "sku": 4901,
+        "type":"monitor"
+
+      },
+      {
+        "name": "Patriot P300 M.2 PCIe Gen 3 x4 512GB Low-Power Consumption SSD ",
+        "id": 18,
+        "isFreeShipping": false,
+        "price": 1100 ,
+        "sku": 6606,
+        "type":"storage"
+
+
+      },
+      {
+        "name": "Patriot P210 2.5 256GB SATA III SSD - Solid State Drive",
+        "id": 19,
+        "isFreeShipping": false,
+        "price": 550,
+        "sku": 5621,
+        "type":"storage"
+
+      },
+      {
+        "name": "BenQ ZOWIE XL2411P 24 inch 144Hz Gaming Monitor",
+        "id": 20,
+        "isFreeShipping": false,
+        "price": 3445 ,
+        "sku": 5402,
+        "type":"monitor"
+
+      },
+      {
+        "name": "Crucial 16GB DDR4-3200 SODIMM CT16G4SFD832A NOTEBOOK ",
+        "id": 21,
+        "isFreeShipping": true,
+        "price": 888,
+        "sku": 3060,
+        "type":"storage"
+
+      },
+      {
+        "name": "SAMSUNG 49 Odyssey Super Ultra Wide QLED Gaming Monitor 1MS - 240HZ - G-Sync compatible - VA",
+        "id": 22,
+        "isFreeShipping": false,
+        "price": 25000 ,
+        "sku": 4520,
+        "type":"monitor"
+
+      },
+      {
+
+        "name": "Samsung LS24D332 - 24-inch Fast-Response Full HD Monitor",
+        "id": 23,
+        "isFreeShipping": true,
+        "price": 5403 ,
+        "sku": 5403,
+        "type":"monitor"
+
+      },
+      {
+        "name": "LG 27 UltraGear 27GN850-B QHD Nano IPS 1ms 144Hz G-SYNC Compatible Gaming Monitor",
+        "id": 24,
+        "isFreeShipping": true,
+        "price": 9100 ,
+        "sku": 16310,
+        "type":"monitor"
+
+        
+      },
+      {
+        "name": "XPG GAMMIX S50 Lite 512GB PCIe Gen4x4 M.2 2280 Solid State Drive",
+        "id": 25,
+        "isFreeShipping": true,
+        "price": 1600,
+        "sku": 15014,
+        "type":"storage"
+
+      }
+    ]
+}

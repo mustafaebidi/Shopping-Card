@@ -1,0 +1,63 @@
+.nav {
+  background-color: #1a1919;
+}
+
+.nav .container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  color: white;
+  position: relative;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.card > a {
+  position: relative;
+  display: block;
+  color: white;
+}
+
+.numberofitems {
+  position: absolute;
+  bottom: 2px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  background-color: #0c53ec;
+  border-radius: 50%;
+  border: 4px solid #1a1919;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.card .hide {
+  display: none;
+}
+
+.slide-down {
+  background-color: rgb(212, 207, 207);
+  position: absolute;
+  width: 400px;
+  min-height: 100px;
+  top: 80%;
+  right: 0px;
+  transition: 0.3s;
+  transform: scale(0);
+  z-index: 55555;
+  color: black;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.card:hover .slide-down {
+  transform: scale(1);
+}

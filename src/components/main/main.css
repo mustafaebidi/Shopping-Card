@@ -1,0 +1,15 @@
+.main {
+  padding-top: 100px;
+}
+
+.main .container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 25px;
+}
+
+.main .container > div:last-of-type {
+  width: 85%;
+}

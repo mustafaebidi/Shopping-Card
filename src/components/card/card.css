@@ -1,0 +1,39 @@
+td img {
+  width: 100px;
+  display: block;
+}
+td {
+  background-color: #f9f9f9;
+  padding: 8px;
+}
+
+.qullity {
+  display: flex;
+}
+
+.quantity-control {
+  display: flex;
+}
+
+.quantity-control > div {
+  padding: 10px 15px;
+  border: 1px #58a3da solid;
+  background: #58a3da;
+  color: #fff;
+  cursor: pointer;
+}
+
+.quantity-control > div:last-of-type {
+  border: 1px #212121 solid;
+  background: #212121;
+  color: #fff;
+}
+
+.delete-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.name-product{
+  vertical-align: top;
+}

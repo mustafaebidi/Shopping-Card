@@ -1,0 +1,37 @@
+.product-alert {
+  background-color: rgba(241, 241, 241, 0.97);
+  padding: 8px;
+  width: 250px;
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: myfirst 3s linear backwards;
+}
+
+.product-alert h2 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.info-alret {
+  display: flex;
+  align-items: center;
+}
+
+.info-alret img {
+  width: 100px;
+  height: 50px;
+}
+
+@keyframes myfirst {
+  0% {
+    opacity: 0;
+  }
+  10%,
+  93% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
